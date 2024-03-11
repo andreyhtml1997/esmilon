@@ -1,0 +1,121 @@
+h1, .h1 {
+  font-size: 90px;
+  line-height: 1;
+  @media(max-width: $xl){
+    font-size: 75px;
+  
+  }
+  @media(max-width: $lg){
+  }
+  @media(max-width: $md){
+    font-size: 40px;
+    
+  }
+  @media(max-width: $sm){
+  }
+  @media(max-width: $xs){
+  
+  }
+  
+}
+
+h2, .h2 {
+  font-size: 50px;
+  line-height: 1;
+  @media(max-width: $xl){
+  
+  }
+  @media(max-width: $lg){
+  
+  }
+  @media(max-width: $md){
+    font-size: 40px;
+  }
+  @media(max-width: $sm){
+  
+  }
+  @media(max-width: $xs){
+  
+  }
+  
+}
+
+h3, .h3 {
+  font-size: 40px;
+  line-height: 1.25;
+  @media(max-width: $xl){
+    font-size: 30px;
+  
+  }
+  @media(max-width: $lg){
+  }
+  @media(max-width: $md){
+    font-size: 20px;
+  }
+  @media(max-width: $sm){
+  
+  }
+  @media(max-width: $xs){
+  
+  }
+  
+}
+
+h4, .h4 {
+  font-size: 35px;
+  line-height: 1;
+  line-height: 1.25;
+}
+
+h5, .h5 {
+  font-size: 25px;
+  line-height: 1.25;
+  @media(max-width: $md){
+    font-size: 20px;
+  }
+}
+
+h6, .h6 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+  @media(max-width: $xl){
+  
+  }
+  @media(max-width: $lg){
+  
+  }
+  @media(max-width: $md){
+    font-size: 16px;
+  }
+  @media(max-width: $sm){
+  
+  }
+  @media(max-width: $xs){
+  
+  }
+  
+}
+
+
+.section__title {
+  @extend .h1 !optional;
+  
+}
+
+
+
+.noSelect {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.noSelect:focus {
+  outline: none !important;
+}

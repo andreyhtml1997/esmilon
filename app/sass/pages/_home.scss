@@ -1,0 +1,121 @@
+.hero {
+  min-height: 100vh;
+  &__categories-container {
+
+  }
+  &__categories {
+
+  }
+  &__categories-list {
+
+  }
+  &__categories-el-container {
+    height: 160px !important;
+
+  }
+  &__categories-el {
+  }
+  &__categories-el-img {
+
+  }
+  &__categories-el-text {
+
+  }
+  &__main {
+
+  }
+  &__main-img {
+    img {
+
+    }
+  }
+  &__main-text {
+
+  }
+  &__title {
+
+  }
+  &__subtitle {
+
+  }
+  &__buttons {
+    .button {
+
+    }
+  }
+}
+
+.category-preview {
+  margin-bottom: 56px;
+  &__title {
+    font-size: 24px;
+    color: $light;
+    text-align: center;
+    font-weight: 700;
+    a {
+      color: $light;
+      &:hover {
+        @include gradient-text;
+      }
+    }
+  }
+  &__body {
+
+  }
+  .row {
+    & > * {
+      margin-top: 40px;
+      @include itemGrid(4, $gap-desktop);
+    }
+  }
+  .show-more {
+    border: 1px solid $button-border-color;
+    border-radius: 16px;
+    height: 48px;
+    width: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background: $button-gradient-transparent; 
+    transition: 0.5s all;
+    svg {
+      width: 8px;
+      height: 14px;
+    }
+    &:hover {
+      background: $button-gradient-normal;
+
+    }
+  }
+}
+
+.features {
+  &__title {
+
+  }
+  .row {
+    
+  }
+  &__el {
+    @include itemGrid(4, $gap-desktop);
+  }
+  &__el-img {
+    img {
+
+    }
+  }
+  &__el-content {
+
+  }
+  &__el-title {
+
+  }
+  &__el-description {
+
+  }
+}
+
+.about {
+
+}

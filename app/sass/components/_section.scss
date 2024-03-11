@@ -1,0 +1,65 @@
+section {
+	display: block;
+}
+
+.section {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
+	position: relative;
+	@media(max-width: $xl){
+	
+	}
+	@media(max-width: $lg){
+	
+	}
+	@media(max-width: $md){
+		min-height: auto;
+		
+	}
+	@media(max-width: $sm){
+	}
+	@media(max-width: $xs){
+	
+	}
+  &__header {
+    display: flex;
+		margin-bottom: 90px;
+		position: relative;
+
+		@media(max-width: $xl){
+		
+		}
+		@media(max-width: $lg){
+		
+		}
+		@media(max-width: $md){
+			justify-content: flex-start !important;
+
+		}
+		@media(max-width: $sm){
+			flex-direction: column;
+
+		}
+		@media(max-width: $xs){
+		
+		}
+		
+    .section__title {
+    
+    }
+    
+  }
+	&__title {
+		font-size: 36px;
+		text-align: center;
+		color: $light;
+	}
+	&__subtitle {
+
+	}
+	&__body {
+
+	}
+}
